@@ -8,11 +8,36 @@
 .fun-img{
 
     width: 250px;
-    height: 500px;
+    height: 400px;
     display: grid;
     margin-left:860px;
-    margin-top: -50px;
+    margin-top: -70px;
     width: 30%; 
     height: auto;
     z-index: -2;
+}
+
+.teller-p{
+        font-family:'Dancing Script', cursive;
+        font-size: 26px;
+        width: 42%; 
+        margin-left: 200px;
+    }
+
+   .fun-btn {
+        border-radius: 30px;
+        background-color: #FFA7B6;
+        font-family: 'Dancing Script', cursive;
+        font-weight: 700;
+        right: 140px;
+        font-size: 25px;
+        margin: 0px;
+        padding: 0px;
+        margin-top: -600px;
+    }
+
+    
+.fun-btn a{
+    text-decoration: none;
+    color: black;
 }

@@ -29,6 +29,17 @@ nav{
     margin-left: -400px;
 }
 
+.tell-h1{
+    font-family:'Dancing Script', cursive;
+    font-size: 55px;
+    text-align: center;
+    margin: 0;
+    line-height: 0.7;
+    margin-left: -400px;
+    margin-top: 150px;
+    color: purple;
+}
+
 .tell-p{
     font-family:'Dancing Script', cursive;
     font-size: 46px;
@@ -64,7 +75,7 @@ nav{
     width: 550px;
     height: 500px;
     display: grid;
-    margin-left: 810px;
+    margin-left: 840px;
     margin-top: -550px;
     width: 50%; 
     height: auto;
