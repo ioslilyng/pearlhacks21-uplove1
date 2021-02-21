@@ -1,0 +1,18 @@
+.title{
+    font-family:'Dancing Script', cursive;
+    font-size: 60px;
+    text-align: center;   
+    margin-left: -200px; 
+}
+
+.fun-img{
+
+    width: 250px;
+    height: 500px;
+    display: grid;
+    margin-left:860px;
+    margin-top: -50px;
+    width: 30%; 
+    height: auto;
+    z-index: -2;
+}
