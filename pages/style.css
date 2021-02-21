@@ -1,0 +1,247 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+    background-color: white;
+  }
+  p{
+    max-width: 900px;
+}
+nav{
+    background-color: #FFA7B6;
+}
+
+.greet-head{
+    font-family:'Dancing Script', cursive;
+    font-size: 170px;
+    text-align: center;   
+    margin-left: -200px; 
+}
+
+.tell-h{
+    font-family:'Dancing Script', cursive;
+    font-size: 55px;
+    text-align: center;
+    margin: 0;
+    line-height: 0.7;
+    margin-left: -400px;
+}
+
+.tell-p{
+    font-family:'Dancing Script', cursive;
+    font-size: 46px;
+    text-align: center;
+}
+.navbar{
+    position: fixed;
+    top:0px;
+    width:100%;
+    left: 0px;
+
+    height: 10px;
+    padding: 15px 0px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity:0.5;
+    z-index:5;
+
+}
+ .navbar a{
+ text-decoration: none;
+ color: black;
+ font-size: 30px;
+ }
+
+.diary-head{
+    text-align: center;
+    font-size: 60px;
+}
+.tell-img{
+    width: 550px;
+    height: 500px;
+    display: grid;
+    margin-left: 810px;
+    margin-top: -550px;
+    width: 50%; 
+    height: auto;
+    z-index: -2;
+}
+.text-stuff{
+    outline: none;
+    resize: none;
+    overflow: hidden;
+    border: 1px solid #FFA7B6;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 800;
+    line-height: 1.5;
+    font-size: 50px;
+    padding: 0 5px;
+    width: 760px;
+    height: 450px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 300px;
+}
+
+.text-stuff ::after{
+    border-color: #FFA7B6;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 40px;
+    margin-bottom: 60px;
+    box-shadow: 0px 0px 15px 3px rgba(15, 15, 15, 0.2);
+
+}
+
+.tell-btn{
+    border-radius: 30px;
+    background-color: #FFA7B6;
+    bottom: -340px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    right: 140px;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.tell-btn a{
+    text-decoration: none;
+    color: black;
+}
+
+.diary-btn{
+    border-radius: 30px;
+    background-color: #FFA7B6;
+    bottom: -340px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    right: 140px;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 20px;
+    margin-top: -200px;
+}
+
+.inputp{
+    color: black;
+    border: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    outline: none;
+}
+
+.ph{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+/* Customize the label (the container) */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 32px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #FFA7B6;
+
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
+.diary-btn a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    background-color: #FFA7B6;
+    margin: 0px;
+   
+}
+
+.pp{
+    font-size: 30px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: black;
+  }
+
+  .copyright{
+      text-align: center;
+      margin: 0;
+      width:100%;
+      font-weight: 600;
+      margin-left: 400px;
+  }
